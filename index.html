@@ -22,9 +22,76 @@
   <li>Veins</li>
 </ul>
 
+<img src="https://my.clevelandclinic.org/-/scassets/images/org/health/articles/23074-heart-chambers"
+     alt="Illustration of the human heart showing the four chambers—right atrium, right ventricle, left atrium, and left ventricle. The right side of the heart is shaded in blue to indicate oxygen-poor blood; the left side is shaded in red to indicate oxygen-rich blood.
+
+"
+     aria-describedby="description">
+[…]
+<p id="description">
+  This labeled medical illustration displays the interior structure of the human heart with color coding to show the flow of blood through its four chambers. The image is titled "Heart Chambers" at the top.
+The heart is shown as if cut open to reveal the inside of the chambers. On the left side of the image (representing the right side of the heart anatomically), two blue-colored chambers are labeled:
+Right atrium (top left chamber): receives oxygen-poor blood from the body.
+Right ventricle (bottom left chamber): pumps oxygen-poor blood to the lungs.
+On the right side of the image (representing the left side of the heart anatomically), two red-colored chambers are labeled:
+Left atrium (top right chamber): receives oxygen-rich blood from the lungs.
+Left ventricle (bottom right chamber): pumps oxygen-rich blood to the rest of the body.
+The blue color indicates chambers handling oxygen-poor blood, and the red color indicates chambers handling oxygen-rich blood. Arrows or flow lines are not shown, but the color and labeling imply the directional flow of blood through the heart. A legend in the bottom right confirms the color coding, and the image is credited to Cleveland Clinic ©2022.
+This image is useful for understanding the structure and function of the heart in circulating blood through the pulmonary and systemic circuits.
+</p>
+
+<label for="anatomy">What is one thing you know or learned about basic cardiology anatomy?</label>
+<input id="anatomy" type="text" name="anatomy" autocomplete="off" placeholder="Type your answer here">
+
 <h2>Functions of the Heart</h2>
 <p><em>Suspendisse quis lorem convallis, feugiat ante ut, placerat mi.</em> Phasellus tristique sodales dui a tincidunt. Sed et massa aliquet, placerat lorem a, vestibulum nisl. Nulla rhoncus ut tortor ac hendrerit. Mauris rutrum faucibus nunc, quis facilisis massa hendrerit ac. Vestibulum id viverra turpis. Maecenas mattis varius posuere. Etiam accumsan non libero a ultricies. Donec lacinia luctus turpis. Sed at dolor quam. Fusce tempor eu ex vel eleifend. Suspendisse nec ligula nec ligula commodo interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc nisi mauris, imperdiet eget bibendum sed, faucibus sollicitudin augue. Aliquam erat volutpat. </p>
 
+<table>
+<caption>Important Terms</caption>
+
+<tr>
+<th scope="col">Term</th>
+<th scope="col">Definition</th>
+<th scope="col">Function</th>
+</tr>
+
+<tr>
+<th scope="row">Artery</th>
+<td>A blood vessel that carries blood away from the heart.</td>
+<td>Delivers oxygen-rich blood from the heart to the body (except pulmonary artery).</td>
+</tr>
+
+<tr>
+<th scope="row">Atrium</th>
+<td>One of the two upper chambers of the heart.</td>
+<td>Receives blood entering the heart: right atrium from the body, left atrium from the lungs.</td>
+</tr>
+
+<tr>
+<th scope="row">Valve</th>
+<td>A flap-like structure that opens and closes inside the heart.</td>
+<td>Keeps blood flowing in one direction; prevents backflow.</td>
+</tr>
+
+<tr>
+<th scope="row">Veins</th>
+<td>Blood vessels that carry blood toward the heart.</td>
+<td>Return blood to the heart: most carry oxygen-poor blood (except pulmonary veins).</td>
+</tr>
+
+<tr>
+<th scope="row">Vena Cava</th>
+<td>The two largest veins in the body (superior and inferior).</td>
+<td>Carry oxygen-poor blood from the body into the right atrium of the heart.</td>
+</tr>
+
+<tr>
+<th scope="row">Ventricle</th>
+<td>One of the two lower chambers of the heart.</td>
+<td>Pumps blood out of the heart: right to the lungs, left to the body.</td>
+</tr>
+
+</table>
 <h3>Blood Flow (Right Side of the Heart)</h3>
 <ol>
   <li>Superior Vena Cava and Inferior Vena Cava</li>
@@ -45,8 +112,44 @@
   <li>Aorta</li>
 </ol>
 
+<fieldset>
+  <legend>What do the coronary arteries do?</legend>
+
+  <input id="oxygen" type="radio" name="coronary" value="oxygen">
+  <label for="oxygen">Supply the heart muscle with blood and oxygen</label><br>
+
+  <input id="lungs" type="radio" name="coronary" value="lungs">
+  <label for="lungs">Carry oxygen-poor blood to the lungs</label><br>
+
+  <input id="digestive" type="radio" name="coronary" value="digestive">
+  <label for="digestive">Help with digestion by carrying nutrients</label>
+</fieldset>
+
 <h2>Key Takeaways</h2>
 <p>Nunc venenatis faucibus eros<sup>1</sup>. Duis interdum arcu neque, at accumsan leo faucibus vel. Nullam lobortis volutpat ipsum ut porttitor<sub>ipsum</sub>. Morbi sollicitudin sapien ut velit euismod, eget ullamcorper ex convallis. Mauris ut blandit ligula, quis fringilla tortor. Pellentesque viverra ultricies urna euismod tristique. Vestibulum interdum ultrices lacus, non scelerisque augue pretium a. Nam elementum iaculis arcu, quis vulputate lectus congue non.</p>
+
+<fieldset>
+  <legend>Am I at risk for heart disease?</legend>
+  <p>Anyone can get heart disease, but you are at higher risk if you:</p>
+
+  <input id="cholesterol" type="checkbox" name="risk" value="cholesterol">
+  <label for="cholesterol">Have high cholesterol, high blood pressure, or diabetes</label><br>
+
+  <input id="smoke" type="checkbox" name="risk" value="smoke">
+  <label for="smoke">Smoke</label><br>
+
+  <input id="overweight" type="checkbox" name="risk" value="overweight">
+  <label for="overweight">Have overweight or obesity</label><br>
+
+  <input id="inactive" type="checkbox" name="risk" value="inactive">
+  <label for="inactive">Don't get enough physical activity</label><br>
+
+  <input id="diet" type="checkbox" name="risk" value="diet">
+  <label for="diet">Don't eat a healthy diet</label><br>
+
+  <input id="preeclampsia" type="checkbox" name="risk" value="preeclampsia">
+  <label for="preeclampsia">Had a condition called preeclampsia during pregnancy</label>
+</fieldset>
 
 <a href="https://www.unitypoint.org/news-and-articles/16-surprising-facts-about-your-heart-infographic">16 Surprising Fun Facts About the Heart</a>
 </body>
