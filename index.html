@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+}
+input:focus {
+  background-color: gray;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+}
+th {
+  background-color: lightseagreen
+}
+td:first-child,
+th:first-child {
+  background-color: lightseagreen
+}
+</style>
   <meta charset="UTF-8" />
   <title>Cardiology Basics</title>
 </head>
-<body>
+<body style="background-color:pink;">
 <h1>Cardiology Basics</h1>
 
   <a href="#key-takeaways" class="skip">Skip to Key Takeaways</a>
@@ -42,10 +64,10 @@ This image is useful for understanding the structure and function of the heart i
 </p>
 
 <label for="anatomy"><strong>What is one thing you know or learned about basic cardiology anatomy?</strong></label>
-<input id="anatomy" type="text" name="anatomy" autocomplete="off" placeholder="Type your answer here">
+<input id="anatomy" type="text" name="anatomy" autocomplete="off" placeholder="Type your answer here" autofocus>
 
 <h2>Functions of the Heart</h2>
-<p><em>Suspendisse quis lorem convallis, feugiat ante ut, placerat mi.</em> Phasellus tristique sodales dui a tincidunt. Sed et massa aliquet, placerat lorem a, vestibulum nisl. Nulla rhoncus ut tortor ac hendrerit. Mauris rutrum faucibus nunc, quis facilisis massa hendrerit ac. Vestibulum id viverra turpis. Maecenas mattis varius posuere. Etiam accumsan non libero a ultricies. Donec lacinia luctus turpis. Sed at dolor quam. Fusce tempor eu ex vel eleifend. Suspendisse nec ligula nec ligula commodo interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc nisi mauris, imperdiet eget bibendum sed, faucibus sollicitudin augue. Aliquam erat volutpat. </p>
+<p><p style="font-family: 'Courier New'"><em>Suspendisse quis lorem convallis, feugiat ante ut, placerat mi.</em> Phasellus tristique sodales dui a tincidunt. Sed et massa aliquet, placerat lorem a, vestibulum nisl. Nulla rhoncus ut tortor ac hendrerit. Mauris rutrum faucibus nunc, quis facilisis massa hendrerit ac. Vestibulum id viverra turpis. Maecenas mattis varius posuere. Etiam accumsan non libero a ultricies. Donec lacinia luctus turpis. Sed at dolor quam. Fusce tempor eu ex vel eleifend. Suspendisse nec ligula nec ligula commodo interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc nisi mauris, imperdiet eget bibendum sed, faucibus sollicitudin augue. Aliquam erat volutpat. </p>
 
 <tableborder="1">
 <caption>Important Terms</caption>
@@ -128,7 +150,6 @@ This image is useful for understanding the structure and function of the heart i
 </fieldset>
 
 <h2 id="key-takeaways">Key Takeaways</h2>
-<h2>Key Takeaways</h2>
 <p>Nunc venenatis faucibus eros<sup>1</sup>. Duis interdum arcu neque, at accumsan leo faucibus vel. Nullam lobortis volutpat ipsum ut porttitor<sub>ipsum</sub>. Morbi sollicitudin sapien ut velit euismod, eget ullamcorper ex convallis. Mauris ut blandit ligula, quis fringilla tortor. Pellentesque viverra ultricies urna euismod tristique. Vestibulum interdum ultrices lacus, non scelerisque augue pretium a. Nam elementum iaculis arcu, quis vulputate lectus congue non.</p>
 
 <fieldset>
@@ -155,7 +176,6 @@ This image is useful for understanding the structure and function of the heart i
 </fieldset>
 
 
-
-<a href="https://www.unitypoint.org/news-and-articles/16-surprising-facts-about-your-heart-infographic">16 Surprising Fun Facts About the Heart</a>
+<a class="highlight" href="https://www.unitypoint.org/news-and-articles/16-surprising-facts-about-your-heart-infographic">16 Surprising Fun Facts About the Heart</a>
 </body>
 </html>
